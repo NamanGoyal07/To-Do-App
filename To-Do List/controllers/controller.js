@@ -3,7 +3,7 @@ let bodyParser = require('body-parser');
 let mongoose = require('mongoose');
 
 // connect to the database
-mongoose.connect('mongodb+srv://test:test1236@mytodolist.tuiz9.mongodb.net/todolist?retryWrites=true&w=majority');
+mongoose.connect('..');
 
 //Create a schema
 let todoSchema = new mongoose.Schema({
